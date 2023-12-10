@@ -90,3 +90,21 @@ section {
 #resume-l {
     background-color: lightgreen;
 }
+
+.resume-section {
+    margin-bottom: 15px;
+}
+
+.resume-section h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.resume-section p {
+    line-height: 1.6;
+}
+
+.resume-section strong {
+    color: #555;
+}
