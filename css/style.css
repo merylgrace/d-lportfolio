@@ -108,3 +108,22 @@ section {
 .resume-section strong {
     color: #555;
 }
+
+/* Style for Contacts */
+#contacts {
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 45%; 
+}
