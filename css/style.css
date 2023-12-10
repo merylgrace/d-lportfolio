@@ -31,3 +31,9 @@ nav a {
 main {
     padding: 20px;
 }
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
