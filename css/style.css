@@ -38,6 +38,7 @@ section {
     border: 1px solid #ddd;
 }
 
+/* Style for Projects */
 #projects {
     text-align: center;
 }
@@ -63,4 +64,29 @@ section {
 .rectangle {
     width: 450px;
     height: 200px;
+}
+
+/* Style for Resumes */
+#resume {
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resume {
+    width: 45%; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+}
+
+#resume-d {
+    background-color: lightblue;
+}
+
+#resume-l {
+    background-color: lightgreen;
 }
