@@ -11,10 +11,10 @@ header {
 }
 
 nav {
-    position: fixed; 
-    top: 50%;        
-    right: 0;         
-    transform: translateY(-50%); 
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 nav ul {
@@ -29,10 +29,8 @@ nav ul li {
 }
 
 nav a {
-    text-decoration: none;
-    color: #050505;
-    font-weight: bold;
-    font-size: 18px;
+    display: block;
+    transition: color 0.3s;
 }
 
 
@@ -96,7 +94,7 @@ section {
     margin: 10px;
 }
 
-.resume h3{
+.resume h3 {
     text-align: center;
 }
 
