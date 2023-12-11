@@ -59,7 +59,8 @@ section {
     display: block;
     margin-bottom: 40px;
     padding: 20px;
-    border: 1px solid #ddd;
+    height: 100vh;
+    margin-bottom: 0;
 }
 
 /* Style for Projects */
