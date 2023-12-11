@@ -63,9 +63,31 @@ section {
     margin-bottom: 0;
 }
 
+/*Style for About Us */
+#about {
+    background-color: #F69FA5;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    background-color: #F3CFC6;
+    max-width: 500px;
+    height: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
 /* Style for Projects */
 #projects {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-container {
