@@ -1,3 +1,9 @@
+#home {
+    background-color: #F88379; 
+    text-align: center; 
+    padding: 50px;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
