@@ -184,13 +184,16 @@ section {
 #contacts {
     background-color: #F88379;
     text-align: center;
-    
+}
+
+#contacts h2 {
+    color: white;
 }
 
 .contact-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contact {
