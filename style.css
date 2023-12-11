@@ -22,10 +22,12 @@ nav ul li {
 }
 
 nav a {
-    text-decoration: none;
-    color: #050505;
-    font-weight: bold;
-    font-size: 18px;
+    display: inline-block;
+    bottom: 100px;
+    right: 20px;
+    width: 1em;
+    padding: 10px 0;
+    margin: auto;
 }
 
 
@@ -34,9 +36,8 @@ main {
 }
 
 section {
-    margin-bottom: 40px;
-    padding: 20px;
-    border: 1px solid #ddd;
+    display: block;
+    height: 100vh;
 }
 
 /* Style for Projects */
