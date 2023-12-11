@@ -182,25 +182,26 @@ section {
 
 /* Style for Contacts */
 #contacts {
+    background-color: #E37383;
     text-align: center;
+    
 }
 
 .contact-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact {
+    background-color: #F3CFC6;
     box-sizing: border-box;
     border: 1px solid #ddd;
+    border-radius: 10px;
     padding: 15px;
     margin: 10px;
     text-align: center;
     width: 45%;
-}
-
-h2 {
-    color: #333;
 }
 
 html {
