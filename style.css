@@ -100,7 +100,7 @@ section {
 }
 
 .project {
-    background-color: #FFC0CB;
+    background-color: #F3CFC6;
     box-sizing: border-box;
     border: 1px solid #ddd;
     padding: 15px;
@@ -126,7 +126,12 @@ section {
 
 /* Style for Resumes */
 #resume {
+    background-color: #FA8072;
     text-align: center;
+}
+
+#resume h2 {
+    color: white;
 }
 
 .resume-container {
@@ -146,13 +151,15 @@ section {
 }
 
 #resume-d {
-    background-color: lightblue;
+    background-color: #F3CFC6;
     text-align: left;
+    border-radius: 10px;
 }
 
 #resume-l {
-    background-color: lightgreen;
+    background-color: #F3CFC6;
     text-align: left;
+    border-radius: 10px;
 }
 
 .resume-section {
