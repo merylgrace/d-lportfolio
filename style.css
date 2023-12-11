@@ -33,6 +33,9 @@ nav a {
     transition: color 0.3s;
 }
 
+nav a:hover {
+    color: #AA336A;
+}
 
 main {
     padding: 20px;
