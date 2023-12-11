@@ -1,3 +1,17 @@
+#home {
+    background-color: #F88379;
+    text-align: center;
+    padding: 50px;
+}
+
+#home img {
+    max-width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -8,6 +22,13 @@ body {
 header {
     padding: 1em;
     text-align: center;
+}
+
+nav {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 nav ul {
@@ -22,14 +43,22 @@ nav ul li {
 }
 
 nav a {
+<<<<<<< HEAD
     display: inline-block;
     bottom: 100px;
     right: 20px;
     width: 1em;
     padding: 10px 0;
     margin: auto;
+=======
+    display: block;
+    transition: color 0.3s;
+>>>>>>> 12db221787ea19f965dc335ab2cc1ec2d5249531
 }
 
+nav a:hover {
+    color: #AA336A;
+}
 
 main {
     padding: 20px;
@@ -37,12 +66,44 @@ main {
 
 section {
     display: block;
+<<<<<<< HEAD
     height: 100vh;
+=======
+    margin-bottom: 40px;
+    padding: 20px;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+/*Style for About Us */
+#about {
+    background-color: #F69FA5;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    background-color: #F3CFC6;
+    max-width: 500px;
+    height: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+>>>>>>> 12db221787ea19f965dc335ab2cc1ec2d5249531
 }
 
 /* Style for Projects */
 #projects {
+    background-color: #E46273;
     text-align: center;
+    font-size: 18px;
+}
+
+#projects h2{
+    color: white;
 }
 
 .project-container {
@@ -52,6 +113,7 @@ section {
 }
 
 .project {
+    background-color: #F3CFC6;
     box-sizing: border-box;
     border: 1px solid #ddd;
     padding: 15px;
@@ -62,6 +124,7 @@ section {
     width: 45%;
     height: 200px;
     border: 1px solid #ddd;
+    border-radius: 10px;
     padding: 15px;
     margin: 10px;
 }
@@ -70,12 +133,18 @@ section {
     width: 45%;
     height: 200px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 
 /* Style for Resumes */
 #resume {
+    background-color: #F69FA5;
     text-align: center;
+}
+
+#resume h2 {
+    color: white;
 }
 
 .resume-container {
@@ -90,17 +159,20 @@ section {
     margin: 10px;
 }
 
-.resume h3{
+.resume h3 {
     text-align: center;
 }
 
 #resume-d {
-    background-color: lightblue;
+    background-color: #F3CFC6;
+    text-align: left;
+    border-radius: 10px;
 }
 
 #resume-l {
-    background-color: lightgreen;
+    background-color: #F3CFC6;
     text-align: left;
+    border-radius: 10px;
 }
 
 .resume-section {
@@ -123,25 +195,29 @@ section {
 
 /* Style for Contacts */
 #contacts {
+    background-color: #F88379;
     text-align: center;
+}
+
+#contacts h2 {
+    color: white;
 }
 
 .contact-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contact {
+    background-color: #F3CFC6;
     box-sizing: border-box;
     border: 1px solid #ddd;
+    border-radius: 10px;
     padding: 15px;
     margin: 10px;
     text-align: center;
     width: 45%;
-}
-
-h2 {
-    color: #333;
 }
 
 html {
