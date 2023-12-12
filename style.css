@@ -43,17 +43,8 @@ nav ul li {
 }
 
 nav a {
-<<<<<<< HEAD
-    display: inline-block;
-    bottom: 100px;
-    right: 20px;
-    width: 1em;
-    padding: 10px 0;
-    margin: auto;
-=======
     display: block;
     transition: color 0.3s;
->>>>>>> 12db221787ea19f965dc335ab2cc1ec2d5249531
 }
 
 nav a:hover {
@@ -66,10 +57,6 @@ main {
 
 section {
     display: block;
-<<<<<<< HEAD
-    height: 100vh;
-=======
-    margin-bottom: 40px;
     padding: 20px;
     height: 100vh;
     margin-bottom: 0;
@@ -92,7 +79,6 @@ section {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
->>>>>>> 12db221787ea19f965dc335ab2cc1ec2d5249531
 }
 
 /* Style for Projects */
