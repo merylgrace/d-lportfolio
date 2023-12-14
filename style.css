@@ -203,8 +203,3 @@ nav a:hover {
 footer {
     text-align: center;
 }
-
-/* Smooth Scroll */
-html {
-    scroll-behavior: smooth;
-}
