@@ -82,6 +82,24 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.about-person {
+    text-align: center;
+    left: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-person2 {
+    margin-top: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
 /* Projects Section */
 #projects {
     background-color: #E46273;
